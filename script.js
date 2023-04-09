@@ -66,3 +66,23 @@
 // const myAge2 = yourAge2(2003);
 // console.log(myAge2);
 //Difference--> fucntion can called anywhere in the code in func declarations, but in func expressions we can't access func before initialization
+
+//Arrow Fucntions
+
+//helps in writing one line functions
+// const yourAge = birthYear => 2023 - birthYear;
+// const myAge = yourAge(2003);
+// console.log(myAge);
+
+//if parameters or/and return code block are more than just a one line
+
+// const yearsLeftinRetirement = (birthYear, myName) => {
+//     const myAge = 2023 - birthYear;
+//     const leftAge = 60 - myAge;
+    // return leftAge;
+//     return `${myName} you are ${myAge} year old and after 
+// ${leftAge} years you'll be retired..!`;
+// }
+//💡 A function in Javascript can return only one vlaue at once
+// console.log(yearsLeftinRetirement(2003, 'Riya'));
+
