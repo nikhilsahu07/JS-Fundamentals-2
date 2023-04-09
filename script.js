@@ -44,3 +44,25 @@
 
 // const appleOrangeJuice = juiceMakerFunction(2,3);
 // console.log(appleOrangeJuice);
+
+//Function declarations Vs. Expressions
+
+//function Declarations
+
+// function yourAge(birthYear) {
+//     return 2023 - birthYear;
+// }
+
+// let myAge1 = yourAge(2004);
+// console.log(myAge1);
+
+// //fucntion Expression
+
+//function without a name-anonymous function
+// const yourAge2 = function (birthYear){
+//     return 2023 - birthYear;
+// }
+
+// const myAge2 = yourAge2(2003);
+// console.log(myAge2);
+//Difference--> fucntion can called anywhere in the code in func declarations, but in func expressions we can't access func before initialization
