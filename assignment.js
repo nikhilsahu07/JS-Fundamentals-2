@@ -35,3 +35,9 @@ const countryPopulation6 = percentageOfWorld2(143);
 console.log(countryPopulation1, countryPopulation4);
 console.log(countryPopulation2, countryPopulation5);
 console.log(countryPopulation3, countryPopulation6);
+
+//Arrow Functions
+
+const percentageOfWorld3 = population => population / 79 ;
+console.log(percentageOfWorld3(143));
+
