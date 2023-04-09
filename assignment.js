@@ -12,3 +12,26 @@ console.log(country1);
 console.log(country2);
 console.log(country3);
 
+//function decalartions vs expressions
+
+//function declarations
+function percentageOfWorld1(population) {
+    return population / 79 ;
+}
+
+const countryPopulation1 = percentageOfWorld1(1428);
+const countryPopulation2 = percentageOfWorld1(30);
+const countryPopulation3 = percentageOfWorld1(143);
+
+//function expressions
+const percentageOfWorld2 = function (population) {
+    return population / 79 ;
+}
+
+const countryPopulation4 = percentageOfWorld2(1428);
+const countryPopulation5 = percentageOfWorld2(30);
+const countryPopulation6 = percentageOfWorld2(143);
+
+console.log(countryPopulation1, countryPopulation4);
+console.log(countryPopulation2, countryPopulation5);
+console.log(countryPopulation3, countryPopulation6);
