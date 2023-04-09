@@ -86,3 +86,18 @@
 //💡 A function in Javascript can return only one vlaue at once
 // console.log(yearsLeftinRetirement(2003, 'Riya'));
 
+//Functions calling another functions- Nested functions
+
+// function fruitCutter(fruit) {
+//     return fruit * 4;
+// }
+
+// function juiceMakerFunction(apples, oranges) {
+//     const applePieces = fruitCutter(apples);
+//     const orangePieces = fruitCutter(oranges);
+//     const juice = (`Juice with ${applePieces} apples pieces and ${orangePieces} orange pieces..!`);
+//     return juice; //we saved juice in return so that even after calling a function we can particularly choose which variavle to be called individually if required
+// }
+
+// const appleOrangeJuice = juiceMakerFunction(3,4);
+// console.log(appleOrangeJuice);
