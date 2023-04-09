@@ -23,4 +23,24 @@
 // console.log(interface);
 // const private = 'home';
 
+//Basic Functions
 
+// function firstJsFunction() {
+//     console.log(`My first function is created on Javascript..!`);
+// }
+//calling-invoking-running a function 
+// firstJsFunction();
+// firstJsFunction();
+// firstJsFunction();
+
+//Here,apples and oranges are parameters because they only act as a variable and take value to be inserted in the functions
+// function juiceMakerFunction(apples, oranges) {
+//     const juice = (`Juice of ${apples} apples and ${oranges} oranges are made..!`);
+//     return juice; //we saved juice in return so that even after calling a function we can particularly choose which variavle to be called individually if required
+// }
+
+// const appleJuice = juiceMakerFunction(5,0); //Now, we passes the arguements to be executed
+// console.log(appleJuice);
+
+// const appleOrangeJuice = juiceMakerFunction(2,3);
+// console.log(appleOrangeJuice);
