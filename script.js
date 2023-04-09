@@ -101,3 +101,29 @@
 
 // const appleOrangeJuice = juiceMakerFunction(3,4);
 // console.log(appleOrangeJuice);
+
+//Reviewing and revising functions
+
+const myAge = function (birthYear) {
+    return 2023 - birthYear;
+}
+
+const yearsLeftinRetirement = function (birthYear, myName) {
+    const myAge1 = myAge(birthYear);
+    const leftAge = 60 - myAge1;
+
+    if (leftAge > 0) {
+        console.log(`${myName} wil be retired after ${leftAge} years..!`);
+        return leftAge;
+        //return keyword imidiately return the value and end the function
+    } else{
+        console.log(`${myName} is already been retired..!`);
+        return -1;
+        //no code work after return keyword
+    }
+//     return `${myName} you are ${myAge} year old and after 
+// ${leftAge} years you'll be retired..!`;
+}
+
+console.log(yearsLeftinRetirement(1950, 'riya'));
+console.log(yearsLeftinRetirement(1969, 'raj'));
