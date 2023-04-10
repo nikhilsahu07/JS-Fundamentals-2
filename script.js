@@ -104,26 +104,72 @@
 
 //Reviewing and revising functions
 
-const myAge = function (birthYear) {
-    return 2023 - birthYear;
-}
+// const myAge = function (birthYear) {
+//     return 2023 - birthYear;
+// }
 
-const yearsLeftinRetirement = function (birthYear, myName) {
-    const myAge1 = myAge(birthYear);
-    const leftAge = 60 - myAge1;
+// const yearsLeftinRetirement = function (birthYear, myName) {
+//     const myAge1 = myAge(birthYear);
+//     const leftAge = 60 - myAge1;
 
-    if (leftAge > 0) {
-        console.log(`${myName} wil be retired after ${leftAge} years..!`);
-        return leftAge;
+//     if (leftAge > 0) {
+//         console.log(`${myName} wil be retired after ${leftAge} years..!`);
+//         return leftAge;
         //return keyword imidiately return the value and end the function
-    } else{
-        console.log(`${myName} is already been retired..!`);
-        return -1;
+    // } else{
+    //     console.log(`${myName} is already been retired..!`);
+    //     return -1;
         //no code work after return keyword
-    }
+    // }
 //     return `${myName} you are ${myAge} year old and after 
 // ${leftAge} years you'll be retired..!`;
-}
+// }
 
-console.log(yearsLeftinRetirement(1950, 'riya'));
-console.log(yearsLeftinRetirement(1969, 'raj'));
+// console.log(yearsLeftinRetirement(1950, 'riya'));
+// console.log(yearsLeftinRetirement(1969, 'raj'));
+
+//Arrays
+
+// const frnd1 = 'kunal';
+// const frnd2 = 'sandeep';
+// const frnd3 = 'sumit';
+
+//initializing an array
+// const friends = ['kunal', 'sandeep', 'sumit', 'anish'];
+// console.log(friends);
+
+//another way of writing a data-types in array
+// const year = new Array(1969, 2003, 2004, 2008);
+// console.log(year);
+
+// console.log(friends[0]); //indexing from zero
+// console.log(friends[2]);
+
+//length property
+// console.log(friends.length);
+// console.log(friends.length - 1); //index of last element of given array
+// console.log(friends[friends.length - 1]);
+
+//array data-types are mutable
+// friends[2] = 'sandeep 2';
+// console.log(friends);
+
+// const descStuent = ['Riya', 'Singh', 20, 2023 - 2003, 'BCA', friends];
+// console.log(descStuent);
+// console.log(descStuent.length);
+
+//Exercise
+// const yourAge = function (birthYear){
+//     return 2023 - birthYear;
+// }
+
+// const age1 = yourAge(year[0]);
+// const age2 = yourAge(year[1]); 
+// const age3 = yourAge(year[2]); 
+// const age4 = yourAge(year[year.length - 1]);
+
+// console.log(age1, age2, age3, age4);
+
+//we can also save values in an array
+// const ages = [yourAge(year[0]), yourAge(year[1]), yourAge(year[year.length - 1])];
+// console.log(ages);
