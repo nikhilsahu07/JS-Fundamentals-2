@@ -52,3 +52,16 @@ console.log(describePopulation('India', 1428));
 console.log(describePopulation('Nepal', 30));
 console.log(describePopulation('Russia', 143));
 
+//Introduction to Arrays
+
+const populations = [1428, 30, 143, 33];
+
+// populations.length > 4 ? console.log('true') : console.log('false');
+console.log(populations.length === 4);
+
+const percentages =[(populations[0] / 79).toFixed(2), 
+                    (populations[1] / 79).toFixed(2), 
+                    (populations[2] / 79).toFixed(2), 
+                    (populations[populations.length - 1]).toFixed(2) 
+                    ];
+console.log(percentages);
