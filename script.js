@@ -237,3 +237,39 @@
 //                    };
                    
 // console.log(myDetails);
+
+/*.Dot vs. [brackets] Notation
+difference b/w dot and brackets notation is that
+dot notation only accepts static keys while
+Brackets Notation accepts dynamic keys
+static key means values are directly type and dynamic means key is evaluated from an expression 
+*/
+// const myDetails = {firstName: 'Nikhil',
+//                    lastName: 'Sahu',
+//                    age: 2023 - 2004,
+//                    love: 'Riya',
+//                    course: 'BCA',
+//                    friends: ['kunal', 'sandeep 2', 'sumit'],
+//                    };
+
+// console.log(myDetails);
+
+// console.log(myDetails.firstName); //calling key name
+// console.log(myDetails['age']);
+
+// const nameKey = 'Name';
+// console.log(myDetails['first' + nameKey]);
+// console.log(myDetails[`last${nameKey}`]);
+
+// const checkerObjects = prompt('What do you want check?(firstName/lastName/age/love/course/friends): ');
+
+// myDetails[checkerObjects] ? console.log(myDetails[checkerObjects]) : console.log("Doesn't exit in data..!");
+
+//adding more key value pair
+// myDetails.location = 'India';
+// console.log(myDetails);
+
+//exercise
+// console.log(`${myDetails.firstName + myDetails.lastName} has ${myDetails.friends.length} friends and has ${myDetails['love'] ? `a beautiful girlfriend named ${myDetails.love}.` : 'no girlfriend by choice'}
+// and his best friend is ${myDetails.friends[1]} `);
+
