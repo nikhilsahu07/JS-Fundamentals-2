@@ -65,3 +65,18 @@ const percentages =[(populations[0] / 79).toFixed(2),
                     (populations[populations.length - 1]).toFixed(2) 
                     ];
 console.log(percentages);
+
+//Basic Array Operations(methods)
+
+const neighbours = ['pakistan', 'china', 'bangladesh', 'bhutan', 'nepal', 'maldives', 'sri lanka'];
+
+neighbours.push('Utopia');
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+if(!neighbours.includes('Germany')) console.log(`Probably not a central Europian country :D`);
+
+neighbours[neighbours.indexOf('china')] = 'Republic of china';
+console.log(neighbours);
