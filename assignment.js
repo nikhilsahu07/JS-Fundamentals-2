@@ -80,3 +80,14 @@ if(!neighbours.includes('Germany')) console.log(`Probably not a central Europian
 
 neighbours[neighbours.indexOf('china')] = 'Republic of china';
 console.log(neighbours);
+
+//Intro to Objects
+
+const myCountry = {
+    country : 'India',
+    capital : 'New Delhi',
+    language : 'Hindi',
+    population : 1428,
+    neighbours : neighbours
+}; 
+console.log(myCountry);
