@@ -173,3 +173,42 @@
 //we can also save values in an array
 // const ages = [yourAge(year[0]), yourAge(year[1]), yourAge(year[year.length - 1])];
 // console.log(ages);
+
+//Array methods or Opeartions
+
+// const friends = ['kunal', 'sandeep2', 'sumit', 'anish'];
+
+//Adding elements to the array
+// friends.push('vivek'); //add elements to the end of the array
+// console.log(friends);
+
+// const myLove = friends.unshift('riya'); //return the length of the array
+// console.log(myLove); //add elements to the begning of the array
+ 
+//removing elements to the array
+// friends.pop(); //remove elements in the last
+// console.log(friends);
+
+// const popped = friends.pop();//return that removed
+// console.log(popped);
+
+// friends.shift();
+// console.log(friends);
+
+// const firstElementOut = friends.shift();//return that removed elemets
+// console.log(firstElementOut);
+
+//more methods
+
+// console.log(friends.indexOf('sumit')); //index of element in the fucntion
+// console.log(friends.indexOf('riya')); //-1 means doesn't exit
+
+// friends.push('riya');
+// console.log(friends.includes('sumit')); //returns boolean value if it includes
+// console.log(friends.includes('anish'));
+
+// if (friends.includes('riya')) {
+//     console.log('She is still with you..!');
+// } else {
+//     console.log('She dumped you..!');
+// }
