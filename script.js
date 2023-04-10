@@ -198,6 +198,7 @@
 // const firstElementOut = friends.shift();//return that removed elemets
 // console.log(firstElementOut);
 
+
 //more methods
 
 // console.log(friends.indexOf('sumit')); //index of element in the fucntion
@@ -212,3 +213,27 @@
 // } else {
 //     console.log('She dumped you..!');
 // }
+
+
+//Introduction to objects
+
+//objects are same as array but with key-value pair
+
+// const descStuent = ['Riya', 'Singh',
+//                     20, 
+//                     'nikhil', 
+//                     2023 - 2003, 
+//                     'BCA', 
+//                     ['sheetal', 'rajani', 'vaishnavi'] 
+//                 ];  
+
+//definig an objects
+// const myDetails = {firstName: 'Nikhil',
+//                    lastName: 'Sahu',
+//                    age: 2023 - 2004,
+//                    love: 'Riya',
+//                    course: 'BCA',
+//                    friends: ['kunal', 'sandeep 2', 'sumit'],
+//                    };
+                   
+// console.log(myDetails);
