@@ -313,3 +313,21 @@ static key means values are directly type and dynamic means key is evaluated fro
 // console.log(myDetails.age);
 
 // console.log(myDetails.getSummary())
+
+//The Iteration: The for loop
+// console.log(`Lifting weight repetition 1 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 2 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 3 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 4 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 5 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 6 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 7 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 8 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 9 🏋️‍♀️`);
+// console.log(`Lifting weight repetition 10 🏋️‍♀️`);
+
+// for loop contiue running until the condition is true
+// for (let rep= 1; rep <= 10; rep ++) { //rep += 1 can also run as same
+//     console.log(`Lifting weight repetition ${rep} 🏋️‍♀️`);
+// }
+
