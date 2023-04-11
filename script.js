@@ -273,3 +273,43 @@ static key means values are directly type and dynamic means key is evaluated fro
 // console.log(`${myDetails.firstName + myDetails.lastName} has ${myDetails.friends.length} friends and has ${myDetails['love'] ? `a beautiful girlfriend named ${myDetails.love}.` : 'no girlfriend by choice'}
 // and his best friend is ${myDetails.friends[1]} `);
 
+//Object Methods
+
+// const myDetails = { firstName: 'Nikhil ',
+//                     lastName: 'Sahu',
+//                     birthYear: 2003,
+//                     love: 'Riya',
+//                     course: 'BCA',
+//                     hasDriversLicense: true,
+//                     friends: ['kunal', 'sandeep 2', 'sumit'],
+
+                    // calcAge: birthYear => 2023 - birthYear,
+
+                    // calcAge: function () {
+                    //     console.log(this); //'this' is same as the name of the object i.e., myDetails--> don't repeat code and not hardcore the code
+                    //     return 2023 - this.birthYear;
+                    // }
+                
+//                     calcAge: function () {
+//                         this.age = 2023 - this.birthYear; //adding element directly in the object
+//                         return this.age;
+//                     },
+
+//                     getSummary: function() {
+// return  `${this.firstName + this.lastName} is ${this.calcAge()} years old 
+// pursuing his studies in ${this.course} 
+// and ${this.love ? `has a beautiful girlfriend named ${this.love},` : `he's single by choice,`}
+// and he has ${this.hasDriversLicense ? 'a' : 'no'} driving license..! `
+//                     }
+
+//                    };
+
+// console.log(myDetails.calcAge(2004));
+// console.log(myDetails.calcAge(myDetails.birthYear));
+// console.log(myDetails['calcAge'](myDetails.birthYear));
+
+// console.log(myDetails.calcAge());
+
+// console.log(myDetails.age);
+
+// console.log(myDetails.getSummary())
