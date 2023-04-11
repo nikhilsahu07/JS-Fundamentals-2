@@ -88,7 +88,19 @@ const myCountry = {
     capital : 'New Delhi',
     language : 'Hindi',
     population : 1428,
-    neighbours : neighbours
+    neighbours : neighbours,
+    
+    describe: function(){
+        return `${this.country} has ${this.population} million ${this['language']}-speaking people,
+${this.neighbours.length} neighbouring countries and a capital called ${this.capital}.` ;
+    },
+
+//     checkIsland: function() {
+// neighbours ? this.isIsland = true : this.isIsland = false;
+//     }
+    checkIsland: function() {
+        this.isIsland = this.neighbours.length ? true : false; 
+    }
 }; 
 console.log(myCountry);
 
@@ -102,4 +114,12 @@ console.log(myCountry);
 
 myCountry['population'] = myCountry['population'] - 2;
 console.log(myCountry);
+
+//Object Methods
+
+console.log(myCountry.describe());
+
+myCountry.checkIsland();
+console.log(myCountry.isIsland);
+
 
