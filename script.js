@@ -410,3 +410,27 @@ static key means values are directly type and dynamic means key is evaluated fro
 //         console.log(`Exercise ${exercise}:Lifting weight repetition ${rep} 🏋️‍♂️`);
 //     }
 // }
+
+//The while loop
+
+// for (let rep= 1; rep <= 10; rep ++) { //rep += 1 can also run as same
+//     console.log(`Lifting weight repetition ${rep} 🏋️‍♀️`);
+// }
+
+// let rep =1;
+// while(rep<=10){
+//     console.log(`Lifting weight repetition ${rep} 🏋️‍♂️`);
+//     rep++;
+// }
+//while loop is more versatile than for loop, cause it doesn't need specific counter.
+//It's most useful when we don't have idea that how many times the loop should run... like ex below
+
+// let dice = Math.trunc(Math.random() *6) + 1;
+// console.log(dice);
+
+// while(dice !== 6){
+//     console.log(`You rolled a ${dice}`);
+//     dice = Math.trunc(Math.random() *6) + 1;
+//     if(dice === 6) console.log(`Let's end this loop.. You got a ${dice}`);
+
+// }
