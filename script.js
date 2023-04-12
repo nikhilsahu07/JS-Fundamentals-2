@@ -331,3 +331,55 @@ static key means values are directly type and dynamic means key is evaluated fro
 //     console.log(`Lifting weight repetition ${rep} 🏋️‍♀️`);
 // }
 
+//Looping Arrays, continue, break
+
+// const descStuent = ['Riya', 
+//                     'Singh',
+//                     20, 
+//                     'nikhil', 
+//                     2023 - 2003, 
+//                     'BCA', 
+//                     ['sheetal', 'rajani', 'vaishnavi'] ,
+//                     true,
+//                 ];  
+
+// const types = [];
+
+// for (let i = 0; i < descStuent.length; i++) {
+    //reading from the array
+    // console.log(descStuent[i]);
+    //filling ann array
+    // types[i] = typeof descStuent[i];
+    //another way of filling it 
+//     types.push(typeof descStuent[i]);
+    
+// }
+// console.log(types);
+
+// const years = new Array(1990, 1969, 2003, 2004, 2006);
+// const ages = new Array()
+// for (let i = 0; i < years.length; i++) {
+//     ages.push(2025 - years[i]);
+// }
+// console.log(years);
+//console.log(ages);
+
+//Continue and Break
+
+//continue statement skips the loop if condition is true and run with next condition
+// for (let i = 0; i < descStuent.length; i++) {
+
+//     if (typeof descStuent[i] == 'string') continue;
+
+//     console.log(descStuent[i], typeof descStuent[i]);
+
+// }
+
+//break statement instantly breaks the loop if condition is true and move you out you of the loop
+// for (let i = 0; i < descStuent.length; i++) {
+
+//     if (typeof descStuent[i] !== 'string') break;
+
+//     console.log(descStuent[i], typeof descStuent[i]);
+
+// }
