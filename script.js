@@ -383,3 +383,30 @@ static key means values are directly type and dynamic means key is evaluated fro
 //     console.log(descStuent[i], typeof descStuent[i]);
 
 // }
+
+//Looping Backword and loop in loop nested loops
+
+//looping backword
+// const descStuent = ['Riya', 
+//                     'Singh',
+//                     20, 
+//                     'nikhil', 
+//                     2023 - 2003, 
+//                     'BCA', 
+//                     ['sheetal', 'rajani', 'vaishnavi'] ,
+//                     true,
+//                 ]; 
+
+// for ( let i = descStuent.length; i >=0; i--) {
+//     console.log(descStuent[i]);
+// }
+
+//loops inside loop---nested loops
+
+// for(let exercise =1; exercise <= 3; exercise++) {
+//     console.log(`-----------Starting Exercise ${exercise}--------`);
+
+//     for (let rep=1; rep<= 5; rep++) {
+//         console.log(`Exercise ${exercise}:Lifting weight repetition ${rep} 🏋️‍♂️`);
+//     }
+// }
