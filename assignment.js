@@ -122,4 +122,9 @@ console.log(myCountry.describe());
 myCountry.checkIsland();
 console.log(myCountry.isIsland);
 
+//Iteration: The for Loop
 
+for(let voter = 1; voter <= 50; voter++) {
+    console.log(`Vote number ${voter} is currently voting..!❎`);
+}
+console.log('Voting is done in this village..!');
