@@ -62,7 +62,7 @@ console.log(populations.length === 4);
 const percentages =[(populations[0] / 79).toFixed(2), 
                     (populations[1] / 79).toFixed(2), 
                     (populations[2] / 79).toFixed(2), 
-                    (populations[populations.length - 1]).toFixed(2) 
+                    (populations[populations.length - 1] / 79).toFixed(2) 
                     ];
 console.log(percentages);
 
@@ -128,3 +128,27 @@ for(let voter = 1; voter <= 50; voter++) {
     console.log(`Vote number ${voter} is currently voting..!❎`);
 }
 console.log('Voting is done in this village..!');
+
+//Looping Arrays, Breaking and continuing
+
+const percentages2 =[];
+for (let i = 0; i < populations.length; i++) {
+    percentages2.push(percentageOfWorld1(populations[i]).toFixed(2));
+}
+console.log(percentages2);
+
+//checking whether percentages and percentages2 arrays are same..?
+
+if (percentages.length === percentages2.length){
+
+    for (let i = 0; i < percentages.length; i++) {
+        if (percentages[i] === percentages2[i]){
+            var msg = `they have same percentage elements...!`;
+        } else {
+            console.log(`Not the same elements..!`);
+        }
+    }
+    console.log(msg);
+} else {
+    console.log(`Not of the same length even..!`);
+}
