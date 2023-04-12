@@ -152,3 +152,13 @@ if (percentages.length === percentages2.length){
 } else {
     console.log(`Not of the same length even..!`);
 }
+
+//Looping backwards and loops in loops
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+for (i=0; i < listOfNeighbours.length; i++){
+    for(j=0; j < listOfNeighbours[i].length; j++) {
+        console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
+    }
+}
