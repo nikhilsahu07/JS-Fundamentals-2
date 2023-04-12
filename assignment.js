@@ -162,3 +162,22 @@ for (i=0; i < listOfNeighbours.length; i++){
         console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
     }
 }
+
+//The while loop
+
+// const percentages2 =[];
+// for (let i = 0; i < populations.length; i++) {
+//     percentages2.push(percentageOfWorld1(populations[i]).toFixed(2));
+// }
+// console.log(percentages2);
+
+const percentages3 = [];
+let k = 0;
+while (k < populations.length) {
+    const percentageToBePut = (populations[i] / 79).toFixed(2);
+    percentages3.push(percentageToBePut);
+    k++;
+}
+console.log(percentages3);
+
+// In this case, I must insit to be use for loop cause we known the no of iteration we gonna face
